@@ -1,0 +1,48 @@
+.product {
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(207, 205, 51);
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(223, 147, 6);
+  margin: 5px;
+}
+
+.product label {
+  display: block;
+  
+}
+
+.product .price {
+  color: rgb(223, 147, 6);
+  display: inline-block;
+}
+
+.product .total {
+  color: rgb(63, 156, 0);
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.product .btn-add {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.product .quantityPicker {
+  display: inline-block;
+}
+
+.product .prod-category {
+  display: block;
+  text-align: right;
+  padding-right: 7px;
+  color: rgb(90, 88, 88);
+  font-family: "segoe UI", Verdana;
+}
+
+.product img {
+  width: 230px;
+}
